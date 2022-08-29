@@ -52,3 +52,10 @@ The MITRE mappings were created by Microsoft and are not officially supported by
 | Data Destruction | An attacker may try to delete or remove resources in a Kubernetes cluster. These resources may include deployments, configurations, nodes, pods, storage, compute, or other data. | Impact | [T1485](https://attack.mitre.org/techniques/T1485/) |
 | Resource Hijacking | In this technique, an attacker attempts to hijack and abuse a Kubernetes resource for a purpose that it was not originally intended for. One example is using compromised containers to run malicious tasks, such as digital currency mining (cryptomining), also known as a “cryptojacking” attack. | Impact | [T1496](https://attack.mitre.org/techniques/T1496/) |
 | Denial of Service | An attacker may seek to make a service unavailable to legitimate users. They may impact the availability of components within the Kubernetes control plane, such as the API server, cluster nodes, or application components in pods. | Impact | [T1499](https://attack.mitre.org/techniques/T1499/), [T1498](https://attack.mitre.org/techniques/T1498/) |
+
+
+## Contributions
+
+If you have a request, an idea, or a issue to report, please do contact me. 
+- **Modifying Mappings:** Please include a description of alternative MITRE ATT&CK IDs.
+- **Additional Toolkits:** Please specify the toolkits that you are mapping or would like to see mapped within the project.
